@@ -11,7 +11,6 @@ Source0: %{name}-%{version}.tar.bz2
 License: GPL
 Group:   System/Kernel and hardware
 Url: http://kernel.org/git/?p=linux/kernel/git/jgarzik/blktool.git
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: libglib2-devel
 
 %description
