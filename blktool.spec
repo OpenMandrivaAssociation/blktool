@@ -3,7 +3,7 @@
 %define gitdate 10262005
 %define release %mkrel 0.%{gitdate}
 
-Summary: Blktool is a multi-purpose tool to manage common block concepts
+Summary: Multi-purpose tool to manage common block concepts
 Name: %{name}
 Version: %{version}
 Release: %{release}
