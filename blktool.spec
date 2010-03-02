@@ -3,16 +3,16 @@
 %define gitdate 10262005
 %define release %mkrel 0.%{gitdate}
 
-Summary: Multi-purpose tool to manage common block concepts
-Name: %{name}
-Version: %{version}
-Release: %{release}
-Source0: %{name}-%{version}.tar.bz2
-License: GPL
-Group:   System/Kernel and hardware
-Url: http://kernel.org/git/?p=linux/kernel/git/jgarzik/blktool.git
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
-BuildRequires: libglib2-devel
+Summary:	Multi-purpose tool to manage common block concepts
+Name:		%{name}
+Version:	%{version}
+Release:	%{release}
+Source0:	%{name}-%{version}.tar.bz2
+License:	GPLv2
+Group:		System/Kernel and hardware
+Url:		http://kernel.org/git/?p=linux/kernel/git/jgarzik/blktool.git
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildRequires:	libglib2-devel
 
 %description
 blktool is a multi-purpose tool that aims to a common place to
