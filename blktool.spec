@@ -12,7 +12,7 @@ Source0: %{name}-%{version}.tar.bz2
 License: GPL
 Group:   System/Kernel and hardware
 Url: http://kernel.org/git/?p=linux/kernel/git/jgarzik/blktool.git
-BuildRequires: glib2-devel 
+BuildRequires: pkgconfig(glib-2.0)
 
 %description
 blktool is a multi-purpose tool that aims to a common place to
