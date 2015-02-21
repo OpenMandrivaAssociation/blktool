@@ -1,13 +1,10 @@
 %define Werror_cflags	%nil
-%define name blktool
-%define version 4.0
 %define gitdate 10262005
-%define release %mkrel 0.%{gitdate}
 
 Summary: Multi-purpose tool to manage common block concepts
-Name: %{name}
-Version: %{version}
-Release: %{release}
+Name: blktool
+Version: 4.0
+Release: %mkrel 0.%{gitdate}
 Source0: %{name}-%{version}.tar.bz2
 License: GPL
 Group:   System/Kernel and hardware
