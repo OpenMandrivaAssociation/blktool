@@ -8,7 +8,7 @@ Release: %mkrel 0.%{gitdate}
 Source0: %{name}-%{version}.tar.bz2
 License: GPL
 Group:   System/Kernel and hardware
-Url: http://kernel.org/git/?p=linux/kernel/git/jgarzik/blktool.git
+Url: https://kernel.org/git/?p=linux/kernel/git/jgarzik/blktool.git
 BuildRequires: pkgconfig(glib-2.0)
 
 %description
